@@ -14,10 +14,21 @@ header {
     padding-bottom: 15px;
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
 footer {
     background-color: #101010;
     border-top: 1px solid #222;
     padding-top: 15px;
+}
+
+.container {
+    width: min(12000px, 100% - 50px);
+    margin-inline: auto;
 }
 
 .main {
